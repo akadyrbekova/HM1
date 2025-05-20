@@ -1,18 +1,12 @@
 import React from "react";
 
-export const Products = () => {
+export const Products = ({ text, price }) => {
   return (
     <div className="products">
       <div className="productsRow">
         <div className="productsRow2">
-          <p>Aplle</p>
-          <p>$1</p>
-        </div>
-      </div>
-      <div className="productsRow">
-        <div className="productsRow2">
-          <p>Banana</p>
-          <p>$2</p>
+          <p>{text}</p>
+          <p>{price}</p>
         </div>
       </div>
     </div>

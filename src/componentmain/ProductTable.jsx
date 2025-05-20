@@ -7,10 +7,10 @@ const ProductTable = () => {
   return (
     <div className="productTable">
       <ProductTableRow></ProductTableRow>
-      <ProductCategory></ProductCategory>
-      <Products></Products>
-      <ProductCategory></ProductCategory>
-      <Products></Products>
+      <ProductCategory text="Fruits"></ProductCategory>
+      <Products text="Apple" price="$1" />
+      <ProductCategory text="Vegetables"></ProductCategory>
+      <Products text="Cucumber" price="$2"></Products>
     </div>
   );
 };
