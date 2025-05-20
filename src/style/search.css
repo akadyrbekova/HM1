@@ -1,0 +1,21 @@
+.searchInp {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.searchCheckWrap {
+  display: flex;
+  column-gap: 10px;
+}
+
+.searchCheckWrap>p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.checkInp {
+  width: 15px;
+}

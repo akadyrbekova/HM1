@@ -1,0 +1,42 @@
+.productTable,
+.searchBar {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid pink;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px 0px;
+}
+
+.productRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.productsRow {
+  font-weight: 500;
+  border: 1px solid yellow;
+}
+
+.productCategory {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid violet;
+}
+
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 400;
+}
+
+.productsRow2 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
