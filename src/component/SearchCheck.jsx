@@ -1,5 +1,3 @@
-import React from "react";
-
 const SearchCheck = () => {
   return (
     <div className="searchCheckWrap">

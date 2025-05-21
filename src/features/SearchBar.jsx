@@ -1,6 +1,6 @@
 import React from "react";
-import SearchInput from "../component/SearchInput";
-import SearchCheck from "../component/SearchCheck";
+import SearchInput from "../features/SearchInput";
+import SearchCheck from "../features/SearchCheck";
 import "../style/search.css";
 import "../style/productTable.css";
 const SearchBar = () => {
